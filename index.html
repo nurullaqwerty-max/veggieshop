@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Veggie Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🥦 Veggie Shop</h1>
+  <button onclick="goCart()">🛒 Корзина (<span id="count">0</span>)</button>
+</header>
+
+<h2>Каталог овощей</h2>
+
+<div class="grid">
+
+  <div class="card">
+    <img src="images/tomato.jpg">
+    <h3>Помидоры</h3>
+    <p>100₸</p>
+    <button onclick="addToCart('Помидоры',100)">Купить</button>
+  </div>
+
+  <div class="card">
+    <img src="images/adursi.jpg">
+    <h3>Огурцы</h3>
+    <p>80₸</p>
+    <button onclick="addToCart('Огурцы',80)">Купить</button>
+  </div>
+
+  <div class="card">
+    <img src="images/carrot.jpg">
+    <h3>Морковь</h3>
+    <p>60₸</p>
+    <button onclick="addToCart('Морковь',60)">Купить</button>
+  </div>
+
+</div>
+
+<footer>
+  <h3>🥕 Польза овощей</h3>
+  <p>Овощи богаты витаминами, укрепляют иммунитет и дают энергию 💪</p>
+</footer>
+<script src="script.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
